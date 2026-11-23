@@ -2,7 +2,7 @@
 
 Built by **newerrap** for the make.fun token-radar-01 competition.
 
-[![token-radar-01](https://make.fun/badges/token-radar-01/newerrap/makefun-token-radar-rebuild/competition.svg)](https://make.fun/bounties/token-radar-01) [![rank](https://make.fun/badges/token-radar-01/newerrap/makefun-token-radar-rebuild/rank.svg)](https://make.fun/bounties/token-radar-01/leaderboard) [![reward](https://make.fun/badges/token-radar-01/newerrap/makefun-token-radar-rebuild/reward.svg)](https://make.fun/bounties/token-radar-01)
+[![token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounties/token-radar-01) [![rank](https://make.fun/badge/token-radar-01/newerrap/makefun-token-radar-rebuild/rank.svg)](https://make.fun/bounties/token-radar-01) [![reward](https://make.fun/badge/token-radar-01/newerrap/makefun-token-radar-rebuild/reward.svg)](https://make.fun/bounties/token-radar-01)
 
 Token Radar is a deterministic, offline dashboard for finding substantial protocols that do not yet have a traded token. It combines the supplied house watchlist with a carefully filtered set of tokenless protocols, while excluding wrappers, staking products, exchange products, and versioned deployments.
 
