@@ -1,4 +1,5 @@
 import { cp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
 
 import { buildDossier, canonicalJson } from './vendor/makefun-board.ts';
 import { buildRows, type Snapshot } from './lib/model.ts';
@@ -16,8 +17,8 @@ await writeFile('/output/data.js', `globalThis.TOKEN_RADAR_DATA = ${encoded};\n`
 
 await rm('/output/dashboard', { recursive: true, force: true });
 await rm('/output/screenshots', { recursive: true, force: true });
-await cp('dashboard', '/output/dashboard', { recursive: true });
-await cp('screenshots', '/output/screenshots', { recursive: true });
+await cp(fileURLToPath(new URL('./dashboard', import.meta.url)), '/output/dashboard', { recursive: true });
+await cp(fileURLToPath(new URL('./screenshots', import.meta.url)), '/output/screenshots', { recursive: true });
 
 let dossier: Uint8Array;
 try {
